@@ -1,0 +1,24 @@
+div {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+div.class1 {
+  background-color: red;
+  font-weight: bold;
+}
+
+div.class2 {
+  background-color: blue;
+  font-style: italic;
+}
+
+section.class1 > div.class2 {
+  color: yellow;
+}
+
+div + p {
+  color: red;
+}
