@@ -1,0 +1,84 @@
+/*input {
+  background-color: green;
+  border: 2px solid green;
+}
+
+input[type="text"] {
+  background-color: lightblue;
+}*/
+
+/*input:disabled {
+  background-color: lightblue;
+}*/
+
+input[checked] {
+  background-color: lightblue;
+}
+
+select > option {
+  background-color: lightblue;
+}
+
+select > option[selected] {
+  font-weight: bold;
+  background-color: blue;
+}
+
+a[href~="w3schools"] {
+  color: orange;
+}
+
+a {
+  color: blue;
+}
+
+a:focus {
+  color: orange;
+}
+
+a:visited {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+a:hover {
+  color: black;
+}
+
+/*p {
+  text-decoration: underline;
+  background-color: red;
+}*/
+
+select option:first-child {
+  background-color: red;
+}
+
+select option:last-child {
+  background-color: orange;
+}
+
+select option:nth-last-child(1) {
+  background-color: green;
+}
+
+input:in-range {
+  background-color: green;
+}
+
+input:invalid {
+  background-color: magenta;
+}
+
+p::selection {
+  background-color: maroon;
+  color: white;
+  cursor: pointer;
+}
+
+p {
+  cursor: pointer;
+}
